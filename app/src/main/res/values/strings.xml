@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Balaji Trust</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <!--About us texts-->
+    <string name="aboutus_title">About Balaji Charitable Trust</string>
+    <string name="aboutus_slogan">Happiness does not result from what we get,but from what we give.</string>
+    <string name="aboutus_desc">
+        BALAJI CHARITABLE TRUST was formally registered
+        under Indian Trust Act in October 2013 by experienced Social Workers who have been in this service field since 19th century.
+
+    Registration No:214/2013
+    Unique ID:TN/2018/0185830</string>
+
+    <!--About us texts-->
+
+    <!--mission-->
+    <string name="mission">The Mission of the Trust is to reach out its charitable activities to the differently abled, Orphan / abandoned children and also persons below poverty line by providing medical, educational and livelihood support to uplift them in their lives towards self reliance irrespective of their age, caste, creed or community.</string>
+
+    <string name="vission">We aim to provide maximum service to maximum people to the maximum possible extent. We attempt to provide a life of dignity to all, a life without distinctions based on ability, gender, age, caste, language, region, religion, race, class and nationality and opinion.</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/img_aboutus"
+                android:padding="5dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/about_us_img"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/view1"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_aboutus_title"
+                android:text="@string/aboutus_title"
+                android:textSize="20dp"
+                android:textColor="#02A2F8"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="20dp"
+                android:background="#F26522"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_aboutus_slogan"
+                android:text="@string/aboutus_slogan"
+                android:paddingLeft="5dp"
+                android:textColor="#F26522"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_aboutus_desc"
+                android:text="@string/aboutus_desc"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_mission_title"
+                android:textSize="20dp"
+                android:textColor="#02A2F8"
+                android:text="Mission"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="20dp"
+                android:background="#F26522"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_mission_desc"
+                android:paddingLeft="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="@string/mission"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_vision_title"
+                android:textSize="20dp"
+                android:textColor="#02A2F8"
+                android:text="Vision"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="20dp"
+                android:background="#F26522"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_vision_desc"
+                android:paddingLeft="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="@string/vission"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
